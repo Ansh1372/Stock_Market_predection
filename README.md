@@ -92,3 +92,10 @@ The lower the RSE the better the model predicts data. The RSE = 1.686, meaning t
 The R-squared (R2) value is ranged from 0 to 1 and it represents the amount of variation in the output variable that can be understood by the model predictor variables. For a multiple linear regression, R2 is the square of the Pearson correlation coefficient between the outcome and the predictor variables. The R2 measures, how perfectly the model fits in the data. The closer the R2 to the 1, the better the model is trained. In our model R2 value is 0.9998, which is good.
 
 
+## Conclusion
+
+
+
+We are able to predict Closing price of stock on the basis of Opening price, high and low and our model accuracy is good because we have lower value of RSE and higher value of multiple r-squared.
+There is linear relationship between Closing price and other independent variables (i.e., Opening price, High, Low).
+We have used multiple linear regression in it because our dataset contains multiple independent variables with linear relationship towards dependent variable.
