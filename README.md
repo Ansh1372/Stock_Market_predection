@@ -73,3 +73,20 @@
 10.) Communicate Results:
    - Clearly communicate the findings, insights, and limitations of the linear regression model. Present results in a format accessible to stakeholders, using visualizations if necessary.
 
+
+## RESULTS
+
+### Model accuracy: -
+The overall quality of the linear regression fit can be assessed using the following quantities, displayed in the model summary:
+#### 1. Residual Standard Error (RSE),
+#### 2. R-squared (R2) and adjusted R2,
+
+ 
+
+### RSE (residual standard error): -
+The lower the RSE the better the model predicts data. The RSE = 1.686, meaning that the observed Closing price of stock values deviate from the predicted values by approximately 1.686 units in average. This corresponds to an error rate of 1.686/186.4 = 0.90%, which is low.
+
+### R-squared Value: -
+The R-squared (R2) value is ranged from 0 to 1 and it represents the amount of variation in the output variable that can be understood by the model predictor variables. For a multiple linear regression, R2 is the square of the Pearson correlation coefficient between the outcome and the predictor variables. The R2 measures, how perfectly the model fits in the data. The closer the R2 to the 1, the better the model is trained. In our model R2 value is 0.9998, which is good.
+
+
