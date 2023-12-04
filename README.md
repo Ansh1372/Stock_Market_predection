@@ -12,6 +12,8 @@
 
 **Dataset Source:** https://www.kaggle.com/datasets/timoboz/tesla-stock-data-from-2010-to-2020
 
+**Libary use:** ggplot2
+
 
 
 ## Reference papers use
