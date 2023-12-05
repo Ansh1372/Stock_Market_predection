@@ -117,6 +117,10 @@ ggplot(result_set,aes(x = Open, colour = '')) +
 #model accuracy
 summary(model)
 
+#RMSE
+diffSquare <- result_set$Difference^2
+rmse <- sqrt(mean(diffSquare))
+print(paste("Root mean square error value: ",rmse))
 
 #viewing resultant dataset
 View(result_set)
