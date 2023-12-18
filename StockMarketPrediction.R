@@ -84,6 +84,7 @@ print(predictedClose)
 
 
 #summary of predicted values
+
 summary(predictedClose)
 
 
@@ -103,6 +104,7 @@ colnames(result_set)[9] <- "Difference"
 
 
 #plotting predicted vs real values
+
 ggplot(result_set,aes(x = Open, colour = '')) +
   geom_line(aes(y = predictedClose,
                 colour = 'predicted values')) +
