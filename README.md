@@ -6,7 +6,7 @@
 
 ## Tech Stack
 
-**language:** R Programming
+**language: ** R Programming
 
 **IDE:** Rstudio, Vscode
 
