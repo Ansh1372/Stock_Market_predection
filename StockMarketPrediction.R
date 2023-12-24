@@ -112,7 +112,7 @@ ggplot(result_set,aes(x = Open, colour = '')) +
                 colour = 'real values')) +
   ggtitle("Close vs Open Predicted values and real values") +
   labs(x = 'Open',
-       y = 'Close')
+       y = 'Close' )
 
 
   
