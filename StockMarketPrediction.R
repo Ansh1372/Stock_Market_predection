@@ -38,6 +38,7 @@ ggplot()+
   ylab('Close')
 
 
+
 #Low vs Close relation
 ggplot()+
   geom_line(aes(x = data$Low,
