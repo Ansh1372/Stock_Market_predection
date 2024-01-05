@@ -1,3 +1,4 @@
+#Starting of  stock market project
 #importing libraries
 library(ggplot2)
 
